@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>121</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::ClickFocus</enum>
+    </property>
+    <property name="text">
+     <string>Status</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>0</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>second Window</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>180</y>
+      <width>281</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Login</string>
+    </property>
+    <widget class="QLineEdit" name="lineEdit_username">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>30</y>
+       <width>125</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>125</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_password">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>60</y>
+       <width>125</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>125</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>101</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Login</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>198</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>UserName</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>193</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Password</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_Pic">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>50</y>
+      <width>201</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>211</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>241</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Downloads/1631973172868.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>431</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::ClickFocus</enum>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="text">
+        <string>Magic</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::ClickFocus</enum>
+       </property>
+       <property name="text">
+        <string>full Screen</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::ClickFocus</enum>
+       </property>
+       <property name="text">
+        <string>Click To Change</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>230</y>
+      <width>102</width>
+      <height>57</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::ClickFocus</enum>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QSlider" name="horizontalSlider">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::ClickFocus</enum>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QProgressBar" name="progressBar">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::ClickFocus</enum>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_time">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>330</y>
+      <width>171</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Gill Sans</family>
+      <pointsize>24</pointsize>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>320</y>
+      <width>403</width>
+      <height>204</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QPushButton" name="pushButton_write">
+       <property name="text">
+        <string>write</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_read">
+       <property name="text">
+        <string>read</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPlainTextEdit" name="plainTextEdit"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHello">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="actionAdd"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <addaction name="menuHello"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNew">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../Downloads/1631704108892 2.jpg</normaloff>../../../Downloads/1631704108892 2.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+  <action name="actionAdd">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../Downloads/1631973172834.jpg</normaloff>../../../Downloads/1631973172834.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../Downloads/386.gif</normaloff>../../../Downloads/386.gif</iconset>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>showFullScreen()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>133</x>
+     <y>131</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>150</x>
+     <y>300</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>progressBar</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>horizontalSlider</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>97</x>
+     <y>289</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>101</x>
+     <y>253</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_3</sender>
+   <signal>linkActivated(QString)</signal>
+   <receiver>lineEdit_password</receiver>
+   <slot>setText(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>250</x>
+     <y>306</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>287</x>
+     <y>306</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_2</sender>
+   <signal>linkActivated(QString)</signal>
+   <receiver>lineEdit_username</receiver>
+   <slot>setText(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>251</x>
+     <y>273</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>276</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
